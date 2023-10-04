@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express')
 const cors = require('cors')
 
-const token = '5633382457:AAFH8Ds-8GkGn9R-gPx-xPkpyRdWb22ofHM'
+const token = '6447069145:AAGtA2WmJKe3OzWww0kRr1NanUcmTEUe7HY'
 const webAppUrl = 'https://jocular-kitten-5df275.netlify.app'
 
 const bot = new TelegramBot(token, { polling: true });
